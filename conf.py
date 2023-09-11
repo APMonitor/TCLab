@@ -61,8 +61,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'TCLab'
-copyright = '2018, Jeffrey Kantor and Carl Sandrock'
-author = 'Jeffrey Kantor and Carl Sandrock'
+copyright = '2023, Jeffrey Kantor, Carl Sandrock, John Hedengren'
+author = 'Jeffrey Kantor, Carl Sandrock, and John Hedengren'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -165,7 +165,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'TCLab.tex', 'TCLab Documentation',
-     'Jeffrey Kantor and Carl Sandrock', 'manual'),
+     'Jeffrey Kantor, Carl Sandrock, and John Hedengren', 'manual'),
 ]
 
 
