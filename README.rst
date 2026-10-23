@@ -4,7 +4,7 @@ TCLab: Temperature Control Laboratory
 Master:
 
 .. image:: https://travis-ci.org/jckantor/TCLab.svg?branch=master
-    :target: https://travis-ci.org/jckantor/TCLab
+    :target: https://travis-ci.org/APMonitor/TCLab
 
 .. image:: https://readthedocs.org/projects/tclab/badge/?version=latest
     :target: http://tclab.readthedocs.io/en/latest/?badge=latest
@@ -14,8 +14,8 @@ Master:
 
 Development:
 
-.. image:: https://travis-ci.org/jckantor/TCLab.svg?branch=development
-    :target: https://travis-ci.org/jckantor/TCLab
+.. image:: https://travis-ci.org/APMonitor/TCLab.svg?branch=development
+    :target: https://travis-ci.org/APMonitor/TCLab
 
 ``TCLab`` provides a Python interface to the
 `Temperature Control Lab <http://apmonitor.com/pdc/index.php/Main/ArduinoTemperatureControl>`_
@@ -34,7 +34,7 @@ the ``tclab`` package.  The ``tclab`` package also includes:
   experiments. No hardware needs to be attached to use ``TCLabModel``.
 
 The companion Arduino firmware for device operation is available at the
-`TCLab-Sketch repository <https://github.com/jckantor/TCLab-sketch>`_.
+`TCLab-Sketch repository <https://github.com/APMonitor/TCLab-sketch>`_.
 
 The `Arduino Temperature Control Lab <http://apmonitor.com/pdc/index.php/Main/ArduinoTemperatureControl>`_
 is a modular, portable, and inexpensive solution for hands-on process
@@ -61,7 +61,7 @@ To upgrade an existing installation, use the command ::
 
 The development version contains new features, but may be less stable. To install the development version use the command ::
 
-   pip install --upgrade https://github.com/jckantor/TCLab/archive/development.zip
+   pip install --upgrade https://github.com/APMonitor/TCLab/archive/development.zip
 
 
 Hardware setup
@@ -86,7 +86,7 @@ Hardware setup
    ``TCLab`` requires the one-time installation of custom firmware on
    an Arduino device. If it hasn't been pre-installed, the necessary
    firmware and instructions are available from the
-   `TCLab-Sketch repository <https://github.com/jckantor/TCLab-sketch>`_.
+   `TCLab-Sketch repository <https://github.com/APMonitor/TCLab-sketch>`_.
 
 Checking that everything works
 ------------------------------
@@ -127,6 +127,5 @@ Additional information, instructional videos, and Jupyter notebook
 examples are available at the following course websites.
 
 * `Arduino temperature control lab page <http://apmonitor.com/pdc/index.php/Main/ArduinoTemperatureControl>`__ on the BYU Process Dynamics and Control course website.
-* `CBE 30338 <http://jckantor.github.io/CBE30338/>`__ for the Notre Dame
-  Chemical Process Control course website.
+* `CBE 436 <https://apmonitor.com/pdc>`__ for the BYU Chemical Process Control course website.
 * `Dynamics and Control <https://github.com/alchemyst/Dynamics-and-Control>`__ for notebooks developed at the University of Pretoria.
